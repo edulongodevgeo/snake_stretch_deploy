@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- <div class="navbar pixelify-font">
+    <h1>Estica e dale!</h1>
+  </div> -->
+
+  <div class="score-board pixelify-font">
+    <div id="score">Points: 0</div>
+    <div id="enemiesKilled">Enemies Killed: 0</div>
+  </div>
+
+  <div class="game-board" id="gameBoard"></div>
+
+  <div class="game-over pixelify-font" id="gameOver" style="display: none;">
+    <h1>Game Over</h1>
+    <div id="history">
+      <h2>History</h2>
+      <!-- History content will be dynamically added here -->
+    </div>
+    <button onclick="restartGame()">Jogar novamente</button>
+  </div>
+
+  <!--  <footer class="footer pixelify-font">
+    <p>By Berbigones</p>
+  </footer> -->
+
+  <script src="script.js"></script>
+</body>
+
+</html>
